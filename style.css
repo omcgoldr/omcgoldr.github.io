@@ -1,130 +1,46 @@
-
-        * {
+* {
             font-family: monospace;
-            background-color: #3ED6FE;
             color:#FE663E;
-        h1 {
-            background-color: #ffffff;
-            font-size:60px;
-            text-align: center;  
-        }
-        h2 {
+            padding: 10px;
+            margin: 0;
+            background-color: #3ED6FE;
+            
+            .h1 {
+                background-color: #ffffff;
+                font-size:60px;
+                text-align: center;
+            }
+            .h2 {
                 font-size:40px;
                 font-weight: lighter; 
                 margin: 50px;
-        }
-        p {
-                font-size:30px;
+                text-align-last: left;
+            }
+            .h3 {
+                font-size:40px;
                 font-weight: lighter; 
-                margin-bottom: 30px;
-                margin-left:40px;
-                margin-right:40px;
+                margin: 50px;
+                text-align: right;
+            }
+            .h4 {
+                font-size:40px;
+                font-weight: lighter; 
+                margin: 50px;
                 text-align: left;
             }
-        .wellfleetkeybig {
-                font-size:30px;
-                font-weight:bold;
-                margin-bottom:30px;
-                text-align: center;
-            }
-        .clickwellfleet {
-            float:left;
-            width:200px;
-            margin-left: 20px;
-            margin-right: 40px;
-            margin-top: 10px;
-        }
-        .column1 {
-            float:left;
-            width: 400px;
-            height:400px;
-            margin-top:-15px;
-            margin-bottom:10px;
-            margin-left:20px;
-            margin-right:20px;
-        }
-        .column1:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-        .orangeborder {
+            .orangeborder {
             border-color:#FE663E;
             border-width: 10px;
             border-style: dotted;
-        }
-        .boxshadow {
-            box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-        }
-        .largeimage1 {
-            float:left;
-            width:500px;
-            margin-left: 50px;
-            margin-right: 50px;
-            margin-top: 50px;
-            margin-bottom: 50px;
-        }
-        .swimmingtitle {
-            font-size:40px;
-            margin-left:45px;
-            margin-top:20px;
-            margin-bottom:-20px;
-            text-transform:uppercase;
-        }
-        ul {
-            font-size: 30px;
-            margin-left:40px;
-            margin-right:40px;
-            text-align:left;
-        } 
-        .column2 {
-            float:right;
-            width: 120px;
-            height: 120px;
-            margin-bottom:100px;
-            margin-top:10px;  
-        }
-        .column2:after {
-            content: "";
-            display: table;
-            clear: both;
-        }
-        .keylabel {
-            font-size:10px;
-            font-weight:bold;
-            text-align: center;
-            margin-bottom:5px;
-        }
-        .formoreinfo {
-            width:1300px;
-            height:250px;
-            margin-left:40px;
-            margin-top:40px;
-            margin-bottom:40px;
-        }
-        .formoreinfotext {
-            font-size:30px;
-            margin-left:30px;
-        }
-        .extraimages {
-            width:220px;
-            margin-bottom:20px;
-            padding-left: 40px;
             }
-        .imagetoright {
-             float: right;
-           width: 335px;
+            .column {
+            float:center;
+            width:33.3%;
+            height:200px;
+            padding: 10px;
             }
-            
-        .pondvideo {
-            float: right;
-            width: 300px;
-            }
-        #footer {
-            position: fixed;
-            left:30px;
-            bottom:0; 
-            width:100%;
-            font-size:20px;
-        } 
-        }
+    .row {
+        content: "";
+        display: table;
+        clear: both;
+    }
